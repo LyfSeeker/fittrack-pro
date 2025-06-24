@@ -1,7 +1,6 @@
 import Link from "next/link"
 import Image from "next/image" // Added this import
 import { Button } from "@/components/ui/button"
-import { supabase } from '@/lib/supabase';
 
 export default function Home() {
   return (
